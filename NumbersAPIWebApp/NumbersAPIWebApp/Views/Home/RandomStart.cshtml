@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "RandomStart";
+}
+
+<form action="/Home/RandomFact" method="post">
+    <br />
+
+    <fieldset class="form-group">
+        Choose a category:
+
+        <select id="choice" name="Choice" class="form-control">
+            <option value="trivia">Trivia</option>
+            <option value="math">Math</option>
+            <option value="date">Date</option>
+            <option value="year">Year</option>
+
+        </select><br />
+    </fieldset>
+    <input id="submit" type="submit" onclick="return true;" value="Random Time!?" /><br />
+
+</form>
